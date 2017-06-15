@@ -93,7 +93,9 @@ function padLeft(value, padding) {
     if (typeof padding === "string") {
         return padding + value;
     }
-    throw new Error("Expected string or    number, got '${padding}'.");
+    throw new Error("Expected string or 1111 2222 number, got '${padding}'.");
 }
 padLeft("Hello world", 4); // returns "    Hello world"
+var a = 1;
+console.log("" + a);
 //# sourceMappingURL=test1.js.map

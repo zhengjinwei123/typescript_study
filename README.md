@@ -6,3 +6,89 @@
 2. [官网](https://www.tslang.cn/)<br>
 3. [入门](http://www.runoob.com/w3cnote/getting-started-with-typescript.html)<br>
 4. [中文手册](http://www.runoob.com/manual/gitbook/TypeScript/_book/)<br>
+
+
+### 学习总结
+
+> TypeScript 遵循 ECMAScipt6,学习起来还是比较轻松,在模块方面要注意
+
+##### 1. 引用nodejs模块
+
+1. 首先需要创建一个 后缀名为 `d.ts`的 typescript文件，例如 `node.d.ts`,<br>
+typescript在模块机制上回检查这个文件，从而导入指定模块.
+
+2. `node.d.ts`文件内容(假设我要导入fs,path,lodash) <br>
+
+``` typescript
+declare module "url"{
+    export interface Url{
+        protocol?:string;
+        hostname?:string;
+        pathname?:string;
+    }
+
+    export function parse(urlStr:string,parseQueryString?,slashesDenoteHost?):Url;
+}
+declare module "path"{
+    export function join(...paths:any[]):string;
+}
+
+declare module "fs";
+
+declare module "lodash";
+```
+<br>
+3. 引用模块 (假设你有一个index.ts文件)
+
+``` typescript
+import * as fs from 'fs';
+let contentText = fs.readFileSync('./test1.js','utf-8');
+console.log(contentText);
+
+import * as path from "path";
+console.log(path.join(__dirname,"/"));
+
+import * as _ from "lodash";
+_.each([1,2,3,4],function(v,k){
+    console.log(v,k);
+});
+```
+##### 2. 引用自己定制的模块
+
+1. 假设有个文件名叫 `math.ts`的文件,这个文件中是你需要定制的模块 <br>
+
+``` typescript
+export function add(x:number,y:number){
+    return x+y;
+}
+
+export function sub(x:number,y:number){
+    return x-y;
+}
+
+export function multi(x:number,y:number){
+    return x*y;
+}
+```
+<br>
+2. 引用这个定制模块 <br>
+
+``` typescript
+import * as myMath from './math';
+
+console.log(myMath.add(1,2));
+console.log(myMath.sub(1,2));
+
+//或者也可以这样引入 一部分
+
+import {add,multi} from './math'
+
+console.log(add(1,1));
+console.log(multi(1,2));
+```
+
+##### 3. 如果不愿意写 `xx.d.ts`文件,又想引入第三方模块,可以这样做,在webstorm下<br>
+
+`Preferences -> Languages & Frameworks -> Libraries -> Downloads… -> TypeScript community stubs，选你所需 Download & Install`<br>
+
+这样webstorm 会帮你下载好第三方库，并且这些库已经自带`xx.d.ts`模块声明文件.
