@@ -229,3 +229,4 @@ console.log(add(2,2));
 import * as fs from 'fs';
 let contentText = fs.readFileSync('./test1.js','utf-8');
 console.log(contentText);
+
