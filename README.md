@@ -93,7 +93,7 @@ console.log(multi(1,2));
 
 这样webstorm 会帮你下载好第三方库，并且这些库已经自带`xx.d.ts`模块声明文件,然后你就可以直接像上面那样使用这些模块.
 
-##### 2. 开发环境配置
+### 开发环境配置
 在webstorm下(本人使用webstorm 2017.1.4) <br>
 
 1. 激活 typescript 支持 <br>
@@ -102,6 +102,6 @@ npm install -g typescript
 ```
 <br>
 2. 设置 <br>
-![库导入](https://github.com/zhengjinwei123/typescript_study/blob/master/docs/images/webstorm_add_lib.png?raw=true)
-![激活](https://github.com/zhengjinwei123/typescript_study/blob/master/docs/images/webstorm_active_ts.png?raw=true)
-![激活](https://github.com/zhengjinwei123/typescript_study/blob/master/docs/images/ws_active_ts_2.png?raw=true)
+![库导入] (https://github.com/zhengjinwei123/typescript_study/blob/master/docs/images/webstorm_add_lib.png?raw=true)
+![激活] (https://github.com/zhengjinwei123/typescript_study/blob/master/docs/images/webstorm_active_ts.png?raw=true)
+![激活] (https://github.com/zhengjinwei123/typescript_study/blob/master/docs/images/ws_active_ts_2.png?raw=true)
