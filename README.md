@@ -102,6 +102,6 @@ npm install -g typescript
 ```
 <br>
 2. 设置 <br>
-[](https://github.com/zhengjinwei123/typescript_study/blob/master/docs/images/webstorm_add_lib.png?raw=true)
-[](https://github.com/zhengjinwei123/typescript_study/blob/master/docs/images/webstorm_active_ts.png?raw=true)
-[](https://github.com/zhengjinwei123/typescript_study/blob/master/docs/images/ws_active_ts_2.png?raw=true)
+![库导入](https://github.com/zhengjinwei123/typescript_study/blob/master/docs/images/webstorm_add_lib.png?raw=true)
+![激活](https://github.com/zhengjinwei123/typescript_study/blob/master/docs/images/webstorm_active_ts.png?raw=true)
+![激活](https://github.com/zhengjinwei123/typescript_study/blob/master/docs/images/ws_active_ts_2.png?raw=true)
