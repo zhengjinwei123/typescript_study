@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="254a4807-5633-4755-97a4-8033d10c555c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/export1.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testCls.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tsconfig.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/typescript_study.iml" afterPath="$PROJECT_DIR$/.idea/typescript_study.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1.js" afterPath="$PROJECT_DIR$/test1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1.js.map" afterPath="$PROJECT_DIR$/test1.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1.ts" afterPath="$PROJECT_DIR$/test1.ts" />
     </list>
     <ignored path="typescript_study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,8 +79,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="781">
-              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+            <state relative-caret-position="-563">
+              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -304,12 +292,12 @@
       <option name="presentableId" value="Default" />
       <updated>1497360555766</updated>
       <workItem from="1497364522930" duration="667000" />
-      <workItem from="1497491972429" duration="11488000" />
+      <workItem from="1497491972429" duration="11635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12155000" />
+    <option name="totallyTimeSpent" value="12302000" />
   </component>
   <component name="TodoView" selected-index="1" />
   <component name="ToolWindowManager">
@@ -482,8 +470,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="-563">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding />
         </state>
       </provider>

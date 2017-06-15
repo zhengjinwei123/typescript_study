@@ -17,7 +17,7 @@
 1. 首先需要创建一个 后缀名为 `d.ts`的 typescript文件，例如 `node.d.ts`,<br>
 typescript在模块机制上回检查这个文件，从而导入指定模块.
 
-2. `node.d.ts`文件内容(假设我要导入fs,path,lodash) <br>
+2. `node.d.ts`文件内容(假设我要导入fs,path,lodash,url) <br>
 
 ``` typescript
 declare module "url"{
@@ -91,4 +91,4 @@ console.log(multi(1,2));
 
 `Preferences -> Languages & Frameworks -> Libraries -> Downloads… -> TypeScript community stubs，选你所需 Download & Install`<br>
 
-这样webstorm 会帮你下载好第三方库，并且这些库已经自带`xx.d.ts`模块声明文件.
+这样webstorm 会帮你下载好第三方库，并且这些库已经自带`xx.d.ts`模块声明文件,然后你就可以直接像上面那样使用这些模块.
